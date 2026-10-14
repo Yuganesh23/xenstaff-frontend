@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "XenStaff",
+    "tagline": "Modern Workforce Management & Payroll for Indian Businesses"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "attendance": "Attendance",
+    "shifts": "Shifts",
+    "leave": "Leave Management",
+    "payroll": "Payroll Runs",
+    "payslips": "Payslips",
+    "reports": "Reports & Analytics",
+    "settings": "Settings",
+    "billing": "Subscription & Billing",
+    "logout": "Sign Out",
+    "my_profile": "My Profile",
+    "my_attendance": "My Attendance",
+    "my_leave": "Apply Leave",
+    "my_payslips": "My Payslips"
+  },
+  "dashboard": {
+    "title": "Workforce Overview",
+    "subtitle": "Real-time attendance, workforce operations and payroll health",
+    "total_employees": "Total Active Employees",
+    "present_today": "Present Today",
+    "on_leave": "On Leave",
+    "late_arrivals": "Late Arrivals",
+    "attendance_rate": "Attendance Rate",
+    "quick_actions": "Quick Actions",
+    "clock_in": "Clock In",
+    "clock_out": "Clock Out",
+    "run_payroll": "Run Payroll",
+    "add_employee": "Add Employee"
+  },
+  "common": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "search": "Search by name or code...",
+    "status": "Status",
+    "actions": "Actions",
+    "download_pdf": "Download PDF",
+    "export_csv": "Export CSV",
+    "language": "Language"
+  }
+}

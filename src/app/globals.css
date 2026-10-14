@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Official XenStaff Brand Colors */
+  --brand-white: #FEFEFE;
+  --brand-light-gray: #F4F4F4;
+  --brand-cool-gray: #DFDFE2;
+  --brand-neutral-gray: #BEC0BF;
+  --brand-sage-teal: #708A83;
+  --brand-deep-teal: #476E66;
+  --brand-deep-teal-hover: #3B5C55;
+  --brand-text-primary: #202B28;
+  --brand-text-secondary: #66736F;
+
+  /* Semantic status colors harmonized with the palette */
+  --brand-success: #3B7A57;
+  --brand-success-bg: #EBF4EF;
+  --brand-warning: #B37D28;
+  --brand-warning-bg: #FCF7EE;
+  --brand-error: #B0413E;
+  --brand-error-bg: #FBEBEB;
+
+  --background: var(--brand-white);
+  --foreground: var(--brand-text-primary);
+}
+
+body {
+  color: var(--brand-text-primary);
+  background: var(--brand-white);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar matching cool gray palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-light-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-cool-gray);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-neutral-gray);
+}
